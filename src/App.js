@@ -1,5 +1,7 @@
 function App() {
-  return <h1>Hello, world!</h1>;
+  const greeting = "puta";
+  const dom = <h1>{greeting}</h1>;
+  return dom;
 }
 
 export default App;
